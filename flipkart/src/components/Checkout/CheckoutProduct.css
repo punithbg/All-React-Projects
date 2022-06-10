@@ -1,0 +1,44 @@
+.checkoutProduct{
+    display: flex;
+
+}
+.checkoutProduct__Left{
+    /* border: 5px solid red; */
+    margin: 10px;
+}
+.checkoutProduct__Left>img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.checkoutProduct__Right{
+    /* border: 5px solid pink; */
+    margin: 10px;
+}
+.checkoutProduct__RightStars{
+    display: flex;
+}
+.checkoutProduct__RightButton{
+    color: white;
+    background-color: #ff9f00;
+    border: none;
+    border-radius: 2px;
+    margin-top: -10px;
+}
+.checkoutProduct__RightButtonIcon{
+    margin-right: 5px;
+}
+@media only screen and (max-width:500px) {
+    .checkoutProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .checkoutProduct__Right >h5{
+        font-size: 15px;
+    }
+     .checkoutProduct__Right >p{
+        font-size: 12px;
+    }
+}

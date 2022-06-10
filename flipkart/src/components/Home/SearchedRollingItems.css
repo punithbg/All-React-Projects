@@ -1,0 +1,124 @@
+.roll1{
+    margin:10px;
+}
+.roll1__container{
+    /* padding: 20px; */
+}
+.roll1__containerTop{
+    /* border: 1px solid pink; */
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;;
+}
+
+.roll1__containerBottom{
+    /* border: 1px solid pink; */
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    padding: 20px;
+    flex-wrap: wrap;
+    transition: all .2s ease-in-out; 
+}
+.roll1__containerBottomItem{
+    /* border:1px solid red; */
+    margin :20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:160px
+}
+.roll1__containerBottomItem:hover{
+    transform: scale(1.1);
+}
+.roll1__containerBottomItemImage{
+    color: black;
+    width:150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+
+}
+
+.roll1__containerBottomItemTitle,.roll1__containerBottomItemOffer,.roll1__containerBottomItemOptional{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-align: center;
+    text-align: center;
+    width:150px;
+}
+
+.roll1__containerBottomItemTitle{
+    /* border:1px solid pink; */
+    font-size: 15px;
+    font-weight: 750;
+    margin-left: 10px;
+}
+.roll1__containerBottomItemOffer{
+    display:flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-bottom: -5px;
+}
+.roll1__containerBottomItemOptional{
+    font-size: 14px;
+    color:gray;
+    text-align: center;
+    
+}
+.roll1__containerBottomItemButton{
+    color: white;
+    background-color: #ff9f00;
+    border: none;
+    border-radius: 2px;
+    margin-top: -10px;
+
+}
+.roll1__containerBottomItemButtonIcon{
+margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 500px){
+    .roll1__containerBottom{
+        /* border: 1px solid pink; */
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-wrap: wrap;
+        transition: all .2s ease-in-out; 
+    }
+    .view1All{
+        display: none;
+    }
+    .roll1__containerBottomItem{
+        /* border:1px solid red; */
+        margin :20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100px;
+    }
+    .roll1__containerBottomItemImage{
+        color: black;
+        width:90px;
+        height: 90px;
+        object-fit: contain;
+        margin-bottom: 15px;
+    
+    }
+    
+    .roll1__containerBottomItemTitle,.roll1__containerBottomItemOffer,.roll1__containerBottomItemOptional{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; 
+        text-align: center;
+        text-align: center;
+        width:90px;
+    }
+}

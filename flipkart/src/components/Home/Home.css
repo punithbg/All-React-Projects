@@ -1,0 +1,10 @@
+.home__carousel{
+    margin:10px;
+}
+.loading__spinner{
+    margin:200px 0;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(234,237,237);
+
+}
