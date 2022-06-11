@@ -4,3 +4,8 @@
 ./linkedin-clone/node_modules
 ./slack/node_modules
 ./trippify/node_modules
+
+./amazon/src/firebase.js
+./flipkart/src/firebase.js
+./linkedin-clone/src/firebase.js
+./slack/src/firebase.js
