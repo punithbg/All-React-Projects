@@ -32,7 +32,7 @@ const App = () => {
       setIsLoading(false);
     });
   }
-
+  //
   const [webcamData, setWebcamData] = useState([]);
   const [weatherData, setWeatherData] = useState([]);
   const [places, setPlaces] = useState([]);
