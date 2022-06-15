@@ -7,5 +7,6 @@
 
 ./amazon/src/firebase.js
 ./flipkart/src/firebase.js
+./prime/src/firebase.js
 ./linkedin-clone/src/firebase.js
 ./slack/src/firebase.js
