@@ -1,0 +1,113 @@
+body {
+	background: #141414;
+	color: #ffffff;
+	width:100%;
+}
+
+/* .movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+} */
+
+.image-container {
+	/* border: 1px solid red; */
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	/* border: 1px solid pink; */
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay
+{
+	opacity: 1;
+}
+
+.upperlay{
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height:84%;
+	transition: 0.5s ease;
+	opacity: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.nav-btn{
+	display:flex;
+	justify-content: center;
+}
+
+.navbar{
+	/* background-color: #d6d0c1; */
+	display:flex;
+	margin-top:10px;
+}
+
+.nav-logo{
+	width:30%;
+}
+
+.bred{
+	border: 1px solid red;;
+}
+.links{
+	display: flex;
+	margin-right: 50px;
+} 
+.nav-link{
+	padding : 0 50px;
+}
+
+/* page loading design */
+.loading-design{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.complete-md{
+	display: flex;
+	justify-content: space-between;
+	margin:2rem;
+}
+
+.md-poster
+{
+	margin:0 20px;
+}
+
+.md-details
+{
+	margin:0 50px;
+}
+
+.md-title{
+	margin-right:30px;
+}
+
+.caro{
+	width:100vw;
+	height:89vh;
+}
+.app-title:hover{
+	text-decoration: none;
+}

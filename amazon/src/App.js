@@ -30,7 +30,8 @@ const App = () => {
       }
     });
   }, []);
-  console.log(state.user);
+
+  // console.log(state.user);
   return (
     <Router>
       <div className="App">
